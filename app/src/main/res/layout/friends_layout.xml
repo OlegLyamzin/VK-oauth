@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/vk_grey_color"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/linear_lay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout style="@style/relay_style">
+
+            <ImageView
+                android:id="@+id/image_owner"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                app:srcCompat="@drawable/vk_clear_shape" />
+
+            <TextView
+                android:id="@+id/name_owner"
+                style="@style/name_style"
+                android:layout_width="wrap_content" />
+
+            <ProgressBar
+                android:id="@+id/progressBar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:indeterminateDrawable="@drawable/spiner_ring"
+                android:indeterminateOnly="true" />
+        </RelativeLayout>
+
+
+
+        <!--<RelativeLayout style="@style/relay_style">-->
+
+            <!--<ImageView-->
+                <!--android:id="@+id/image1"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_alignParentLeft="true"-->
+                <!--android:layout_margin="16dp"-->
+                <!--android:layout_weight="1"-->
+                <!--app:srcCompat="@mipmap/ic_launcher" />-->
+
+            <!--<LinearLayout-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_centerVertical="true"-->
+                <!--android:layout_toRightOf="@+id/image1"-->
+                <!--android:orientation="vertical">-->
+
+                <!--<TextView-->
+                    <!--android:id="@+id/online_text1"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:text="@string/online_text" />-->
+
+                <!--<TextView-->
+                    <!--android:id="@+id/name_text1"-->
+                    <!--style="@style/name_style" />-->
+
+                <!--<TextView-->
+                    <!--android:id="@+id/city_text1"-->
+                    <!--style="@style/city_style"-->
+                    <!--android:text="@string/city_str" />-->
+
+            <!--</LinearLayout>-->
+        <!--</RelativeLayout>-->
+
+        <!--<RelativeLayout style="@style/relay_style">-->
+
+            <!--<ImageView-->
+                <!--android:id="@+id/image2"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_alignParentLeft="true"-->
+                <!--android:layout_margin="16dp"-->
+                <!--android:layout_weight="1"-->
+                <!--app:srcCompat="@mipmap/ic_launcher" />-->
+
+            <!--<LinearLayout-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_centerVertical="true"-->
+                <!--android:layout_toRightOf="@+id/image2"-->
+                <!--android:orientation="vertical">-->
+
+                <!--<TextView-->
+                    <!--android:id="@+id/online_text2"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:text="@string/online_text" />-->
+
+                <!--<TextView-->
+                    <!--android:id="@+id/name_text2"-->
+                    <!--style="@style/name_style" />-->
+
+                <!--<TextView-->
+                    <!--android:id="@+id/city_text2"-->
+                    <!--style="@style/city_style"-->
+                    <!--android:text="@string/city_str" />-->
+
+            <!--</LinearLayout>-->
+        <!--</RelativeLayout>-->
+
+        <!--<RelativeLayout style="@style/relay_style">-->
+
+            <!--<ImageView-->
+                <!--android:id="@+id/image3"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_alignParentLeft="true"-->
+                <!--android:layout_margin="16dp"-->
+                <!--android:layout_weight="1"-->
+                <!--app:srcCompat="@mipmap/ic_launcher" />-->
+
+            <!--<LinearLayout-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_centerVertical="true"-->
+                <!--android:layout_toRightOf="@+id/image3"-->
+                <!--android:orientation="vertical">-->
+
+                <!--<TextView-->
+                    <!--android:id="@+id/online_text3"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:text="@string/online_text" />-->
+
+                <!--<TextView-->
+                    <!--android:id="@+id/name_text3"-->
+                    <!--style="@style/name_style" />-->
+
+                <!--<TextView-->
+                    <!--android:id="@+id/city_text3"-->
+                    <!--style="@style/city_style"-->
+                    <!--android:text="@string/city_str" />-->
+
+            <!--</LinearLayout>-->
+        <!--</RelativeLayout>-->
+
+        <!--<RelativeLayout style="@style/relay_style">-->
+
+            <!--<ImageView-->
+                <!--android:id="@+id/image4"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_alignParentLeft="true"-->
+                <!--android:layout_margin="16dp"-->
+                <!--android:layout_weight="1"-->
+                <!--app:srcCompat="@mipmap/ic_launcher" />-->
+
+            <!--<LinearLayout-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_centerVertical="true"-->
+                <!--android:layout_toRightOf="@+id/image4"-->
+                <!--android:orientation="vertical">-->
+
+                <!--<TextView-->
+                    <!--android:id="@+id/online_text4"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:text="@string/online_text" />-->
+
+                <!--<TextView-->
+                    <!--android:id="@+id/name_text4"-->
+                    <!--style="@style/name_style" />-->
+
+                <!--<TextView-->
+                    <!--android:id="@+id/city_text4"-->
+                    <!--style="@style/city_style"-->
+                    <!--android:text="@string/city_str" />-->
+
+            <!--</LinearLayout>-->
+        <!--</RelativeLayout>-->
+
+        <!--<RelativeLayout style="@style/relay_style">-->
+
+            <!--<ImageView-->
+                <!--android:id="@+id/image5"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_alignParentLeft="true"-->
+                <!--android:layout_margin="16dp"-->
+                <!--android:layout_weight="1"-->
+                <!--app:srcCompat="@mipmap/ic_launcher" />-->
+
+            <!--<LinearLayout-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_centerVertical="true"-->
+                <!--android:layout_toRightOf="@+id/image5"-->
+                <!--android:orientation="vertical">-->
+
+                <!--<TextView-->
+                    <!--android:id="@+id/online_text5"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:text="@string/online_text" />-->
+
+                <!--<TextView-->
+                    <!--android:id="@+id/name_text5"-->
+                    <!--style="@style/name_style" />-->
+
+                <!--<TextView-->
+                    <!--android:id="@+id/city_text5"-->
+                    <!--style="@style/city_style"-->
+                    <!--android:text="@string/city_str" />-->
+
+            <!--</LinearLayout>-->
+        <!--</RelativeLayout>-->
+
+    </LinearLayout>
+
+</ScrollView>

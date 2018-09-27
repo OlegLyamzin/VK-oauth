@@ -1,6 +1,10 @@
 <resources>
     <string name="app_name">VK oauth</string>
-    <string name="action_settings">Settings</string>
+    <string name="action_log_out">log out</string>
+    <string name="sign_in">sign in</string>
+    <string name="online_text">online</string>
+    <string name="name_str">name</string>
+    <string name="city_str">city</string>
     <!--<string name="app_id_vk">6704044</string>-->
     <integer name="com_vk_sdk_AppId">6704044</integer>
 </resources>
